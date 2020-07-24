@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<databaseChangeLog  
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"  
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">  
+  
+  <include relativeToChangelogFile="true" file="changesets/changeset-2020_mv_v1.oracle.sql" />
+  <include relativeToChangelogFile="true" file="changesets/changeset-2020_mv_v2.oracle.sql" />
+  
+</databaseChangeLog> 

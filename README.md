@@ -1,7 +1,7 @@
 # mv-backend
 Projeto Backend para MV - Feito em Spring
 
-# Requisitos
+## Requisitos
 
 - [Java JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 - [Maven 3](https://maven.apache.org/download.cgi)
@@ -41,7 +41,7 @@ spring.datasource.url=jdbc:oracle:thin:@localhost:1521:<sid>
 spring.datasource.username=<username>
 spring.datasource.password=<password>
 ```
-# Executando a aplicação
+## Executando a aplicação
 
 1. A aplicação pode ser executada utilizando, na pasta da aplicação) o comando :
    - > mvn spring-boot:run

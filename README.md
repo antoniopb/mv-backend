@@ -41,9 +41,12 @@ spring.datasource.url=jdbc:oracle:thin:@localhost:1521:<sid>
 spring.datasource.username=<username>
 spring.datasource.password=<password>
 ```
+
+Foi utilizado o liquibase para criação das sequences, tabelas, packages e procedures.
+
 ## Executando a aplicação
 
-1. A aplicação pode ser executada utilizando, na pasta da aplicação) o comando :
+1. A aplicação pode ser executada utilizando, na pasta da aplicação, o comando :
    - > mvn spring-boot:run
    
 2. Uma outra maneira é executando o método `main` presente na classe MvBackendApplication.java

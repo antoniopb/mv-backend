@@ -13,11 +13,11 @@ O Driver Oracle [ojdbc8.jar](https://www.oracle.com/database/technologies/jdbc-u
 Foi utilizado um Schema de nome MV para este projeto, o mesmo pode ser criado executando os comandos:
 
 ```
+alter session set "_oracle_script"=TRUE;
+
 CREATE TABLESPACE tbs_perm_mv_01 DATAFILE 'tbs_perm_mv_01.dat' SIZE 20M;
---rollback DROP TABLESPACE tbs_perm_mv_01 INCLUDING CONTENTS AND DATAFILES;
 
 CREATE TEMPORARY TABLESPACE tbs_temp_mv_01 TEMPFILE 'tbs_temp_mv_01.dbf' SIZE 5M;
---rollback DROP TABLESPACE tbs_temp_mv_01 INCLUDING CONTENTS AND DATAFILES;
 
 CREATE USER mv
   IDENTIFIED BY passwrdmv
